@@ -19,11 +19,21 @@ int32_t main()
     // reverse(s.begin(),s.end()); //output="ratna ";
     // sort(s.begin(),s.end()); //output=" aanrt";
 
+
+
+
+
+
+    
+
     // int pos=s.find('a'); //output=1(index of the character);
     // // cout<<pos;
     // if(pos!=string::npos) cout<<"found";
     // else cout<<"not found";
     // cout<<s;
+
+
+    
 
     // string s1="antar";
     // string s2="banik";
@@ -31,6 +41,16 @@ int32_t main()
     // cout<<cmp; cout<<"0";
 
 
+
+
+
+
+
+    string s1, s2; cin>>s1>>s2;
+    if(s1.find(s) != -1) cout<<"FOUND";
+    else cout<<"NOT FOUND";
+
+    
 
 
     
